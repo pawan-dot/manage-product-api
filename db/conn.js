@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
-const url="mongodb://localhost:27017/manage-product";
-mongoose.connect(url, {
+const url = "mongodb://localhost:27017/manage-product";
+mongoose
+  .connect(url, {
     //useCreateIndex:true,
     //useNewUrlParser:true,
     //useUnifieldTopology:true
-}).then(()=>{
+  })
+  .then(() => {
     console.log("connection done");
-    })
+  });
