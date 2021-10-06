@@ -1,39 +1,19 @@
-# Project Title
+# Manage Product
 
-A brief description of what this project does and who it's for
+Manage product and category API
 
+## Development Environment Setup
 
-##To Start local machine
+1.  Clone repo
 
-npm run dev
-## Roadmap
+        $ git clone https://github.com/pawan-dot/manage-product-api.git
 
-- Additional browser support
+2.  Go to the project directory and install deps
 
-- Add more integrations
+        $ npm install
 
-  
-## Run Locally
+3.  Start the development server
 
-Clone the project
+        $ npm run dev
 
-```bash
-  git clone https://github.com/pawan-dot/manage-product-api.git
-```
-
-Go to the project directory
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run dev
-```
-
-  
+4.  Server running @ http://localhost:3000
